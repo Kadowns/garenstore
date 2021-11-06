@@ -99,3 +99,13 @@
 .page.demo {
     background-color:turquoise;
 }
+
+.page.quote {
+    background-color: yellow;
+    height: 250px;
+}
+
+.page.contact {
+    background-color:crimson;
+    height: 250px;
+}
