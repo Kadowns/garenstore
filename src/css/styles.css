@@ -6,6 +6,7 @@
     height: 120px;
     margin-left: 40px;
     margin-top: 40px;
+    background-image: url("../img/logo.png");
 }
 
 .page_menu_options {
@@ -51,4 +52,12 @@
 .center.page_menu_options {
     width: 30%;
     background-color: red;
+}
+
+.center.page_body {
+    background-image: url("../img/garen.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
 }
