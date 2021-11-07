@@ -18,7 +18,7 @@ function signin() {
 
         if (entry.email == temp_email){
             if (entry.password == temp_password){
-                window.localStorage.setItem("current_user", entries[i])
+                setCurrentUser(entry);
                 alert("Login bem sucedido")
                 window.location.href = "../index.html"
                 return;
