@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/sign.css">
+    <script src="../js/signin.js"></script>
     <title>Garen signin</title>
 </head>
   <body>
@@ -12,18 +13,18 @@
             <table>
                 <tr>
                     <td>
-                        <input type="email" placeholder="E-mail"/>
+                        <input id="email" type="email" placeholder="E-mail"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" placeholder="Password"/>
+                        <input id="password" type="password" placeholder="Password"/>
                     </td>
                 </tr>
                 <tr>
                     <td class="center_horizontal">
                         <button onclick="location.href='signup.html'">Não tenho cadastro</button>
-                        <button>Entrar</button>
+                        <button onclick="signin()">Entrar</button>
                     </td>
                 </tr>
             </table>
