@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/sign.css">
+    <script src="../js/signup.js"></script>
     <title>Garen signup</title>
 </head>
   <body>
@@ -12,28 +13,28 @@
             <table>
                 <tr>
                     <td>
-                        <input type="text" placeholder="Username"/>
+                        <input id="username" type="text" placeholder="Username"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="email" placeholder="E-mail"/>
+                        <input id="email" type="email" placeholder="E-mail"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" placeholder="Password"/>
+                        <input id="password" type="password" placeholder="Password"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="password" placeholder="Confirm password"/>
+                        <input id="password_confirmation" type="password" placeholder="Confirm password"/>
                     </td>
                 </tr>
                 <tr>
                     <td class="center_horizontal">
                         <button onclick="location.href='../index.html'">Voltar</button>
-                        <button>Cadastrar</button>
+                        <button onclick="signup()">Cadastrar</button>
                     </td>
                 </tr>
             </table>
