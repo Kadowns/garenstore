@@ -16,7 +16,7 @@ function loadProducts(){
 
         var footer = buildBuyProductFooter(products[i], hasProduct);
 
-        var content = buildProductCard(products[i], footer);
+        var content = buildProductCard(products[i], footer, "../");
         
         document.getElementById("card-list").innerHTML += content;
     }

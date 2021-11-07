@@ -69,11 +69,11 @@ function buildBuyProductFooter(product, hasProduct){
     return content;
 }
 
-function buildProductCard(product, footerContent){
+function buildProductCard(product, footerContent, rootFolderPath){
     var content = "";
     content += '<div class="card" >';
     content += '<div class="card-img">';
-    content += '<img src="../' + product.path + '" />';
+    content += '<img src="' + rootFolderPath + product.path + '" />';
     content += '</div>';
     content += '<div class="card-description">';
     content += product.name;

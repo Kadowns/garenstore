@@ -36,7 +36,7 @@ function loadCart(){
 
         var product = getProductById(productId);
         
-        var content = buildProductCard(product, buildBuyProductFooter(product, true));
+        var content = buildProductCard(product, buildBuyProductFooter(product, true), "../");
         
         document.getElementById("card-list").innerHTML += content;
     }
