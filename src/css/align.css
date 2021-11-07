@@ -1,0 +1,5 @@
+.center_horizontal {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
