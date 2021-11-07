@@ -20,6 +20,7 @@ function signin() {
             if (entry.password == temp_password){
                 window.localStorage.setItem("current_user", entries[i])
                 alert("Login bem sucedido")
+                window.location.href = "../index.html"
                 return;
             }
             alert("Senha incorreta!");
